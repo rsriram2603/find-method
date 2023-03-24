@@ -17,3 +17,9 @@ var emp=employee.find(function(b)
 	
 });
 console.log(emp);
+var emp=employee.find(function(b)
+{
+	return b.name.indexOf("John") >=0;
+	
+});
+console.log(emp);
